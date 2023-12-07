@@ -184,10 +184,7 @@ public:
      */
     virtual void unlock(void);
 
-    virtual ~I2C()
-    {
-        // Do nothing
-    }
+    virtual ~I2C();
 
 #if DEVICE_I2C_ASYNCH
 
